@@ -1,4 +1,4 @@
-const router = require('experess').Router();
+const router = require('express').Router();
 
 router.get('/', (req, res) => {
     res.render('all');
